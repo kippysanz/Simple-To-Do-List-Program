@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> ToDo List App </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"> </script> 
+    </head>
+
+    <body>
+        <div class="main">
+
+            <div class="column-1">
+                <p class="title">ToDo List Application</p>
+                <div class="buttonDiv">
+                    <input type="text" id="createList" placeholder="Input">
+                    <button class="addListButton" onclick="addList()">Add</button>
+                </div>
+
+                <div class="list1Column">
+                    <ul id="list1"></ul>
+                </div>
+            </div>
+
+            <div class="column-2">
+                <p class="title">ToDo List for <span id="selectedList"></span></p>
+                <div class="buttonDiv">
+                    <input type="text" id="createTask" placeholder="Input">
+                    <button class="addTaskButton" onclick="saveTask()">Add</button>
+                </div>
+
+                <div class="list2Column">
+                    <ul id="list2"></ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

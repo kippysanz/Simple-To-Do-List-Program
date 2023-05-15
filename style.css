@@ -1,0 +1,95 @@
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+ul li {
+    color: white;
+    margin-top: 20px;
+    padding-right: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: #40444b;
+}
+
+.main {
+    width: 100%;
+}
+
+.title {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+.buttonDiv {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column-1 {
+    position: relative;
+    float: left;
+    width: 25%;
+    background-color: #202225;
+    height: 100vh;
+}
+
+.column-2 {
+    position: relative;
+    float: left;
+    width: 75%;
+    background-color: #292b2f;
+    height: 100vh;
+}
+
+#createList, #createTask {
+    box-sizing: border-box;
+    width: 70%;
+    padding: 15px;
+    border: none;
+}
+
+.addListButton, .addTaskButton {
+    background-color: #E3ACF9;
+    cursor: pointer;
+    width: 20%;
+    padding: 15px;
+    border: none;
+}
+
+.removeButton {
+    position: absolute;
+    cursor: pointer;
+    right: 20px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.addListButton:hover, .addTaskButton:hover {
+    background-color: #C780FA;
+}
+
+.list1Column, .list2Column {
+    font-size: 2em;
+}
+
+.list1Class {
+    cursor: pointer;
+}
+
+.checked {
+    color: white;
+    background-color: #40444b;
+    text-decoration: line-through;
+}
